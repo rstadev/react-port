@@ -9,6 +9,9 @@ function NavTabs() {
 
   return (
     <ul className="nav nav-tabs">
+      <li className="navbar-brand floated-text">
+        Conner Saxton
+      </li>
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
@@ -16,20 +19,20 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          to="/portfolio"
+          className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
         >
-          About
+          Portfolio
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/project"
           className={location.pathname === "/project" ? "nav-link active" : "nav-link"}
         >
           Projects
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link
           to="/contact"
