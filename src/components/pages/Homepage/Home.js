@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 import aboutpic from "./File_000.jpeg";
-import backgroundimg from "./garden.jpg";
+// import backgroundimg from "./garden.jpg";
 
 
 function Home() {
@@ -50,7 +50,7 @@ function Home() {
 //         </div>
 //     </nav>
 
-<section className="d-flex justify-content-center" style={{ background: `url(${backgroundimg})`}}>
+<section className="d-flex justify-content-center">
   <div className="homeSection">
   <div className = "text-center">
     <h1>About Me</h1>
@@ -79,5 +79,6 @@ function Home() {
 };
 
 
+// style={{ background: `url(${backgroundimg})`}}
 
 export default Home;
