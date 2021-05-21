@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import { Link, Route } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import aboutpic from "./File_000.jpeg"
 
 function Home() {
 
@@ -47,14 +47,15 @@ function Home() {
 //             </div>
 //         </div>
 //     </nav>
+<section>
 <div id="homeSection">
-  <div class = "text-center">
+  <div className = "text-center">
     <h1>About Me</h1>
     <hr/>
   </div>
-  {/* <img id="bio-image" class="rounded mx-auto d-block" src="./assets/misc/File_000.jpeg" alt="bio-picture"> */}
+  <img className="rounded mx-auto d-block bio-image" src={aboutpic} alt="bio" />
     <hr/>
-  <p class="floatedtext"> Hi! My name is Conner Saxton and this is my Homepage! I am currently a student of
+  <p className="floatedtext"> Hi! My name is Conner Saxton and this is my Homepage! I   am currently a student of
     Chemistry at Georgia State University and enrolled in the Full Stack Development course with the Georgia
     Institute of Technology. This portfolio was created as a part of a project in the Full Stack Development
     course. <br></br>Please, click on 
@@ -68,7 +69,7 @@ function Home() {
     in either the navBar or in this paragraph to get into contact with me on one of my accounts.
   </p>
 </div>
-
+</section>
 
 
   );
