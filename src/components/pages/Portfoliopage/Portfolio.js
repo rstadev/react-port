@@ -1,18 +1,27 @@
 import React from "react";
+import "./style.css";
 
 function Portfolio() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
-  );
-}
+
+    <section className = "container">
+        <h1 className= "text-center">Portfolio</h1>
+        <div className = "section">
+            <h2 className = "text-center">Quisa Project</h2>
+            <hr/>
+            <a href= "https://wildnei.github.io/quisa-project/">
+            <img className="rounded mx-auto d-block shrink" src="assets/misc/quisaPage.gif" />
+            </a>
+            <h4>Description: </h4>
+            <p> 
+                This was the first collaborative project I was tasked with during the Full Stack Development course with Georgia Tech. I was required to pair up with three different group members to build an app that relied upon a web A.P.I to function. We all contributed to aspects of this app, but I was specifically tasked with incorporating local storage to it. You can an example of this at the bottom of the app, in the Past Search box. You can find a deployed version of this project by clicking on the picture above. Find the repo itself by clickling the following link: 
+                <br></br>
+                <a className = "dark underline" href="https://github.com/wildnei/quisa-project">Github Repo</a>
+            </p>
+        </div>
+    </section>
+
+  )
+};
 
 export default Portfolio;

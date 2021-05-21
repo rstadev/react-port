@@ -1,3 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  background: #eee;
+  margin: 10px auto;
+  position: relative;
+  text-align:center;
+}
+
+.section {
+  display: block;
+  margin: 0;
+  background:  rgb(194, 231, 255);
+  position: relative;
+  overflow: scroll;
+}
+
+.shrink {
+  width: 60%;
+  height: 60%;
+}
+
 /* body {
   background-image: url("./misc/garden.jpg");
   background-color: #cccccc;
@@ -5,16 +29,7 @@
   background-attachment: fixed;
  }
 
-.container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      width: 70%;
-      background: #eee;
-      margin: 10px auto;
-      position: relative;
-      text-align:center;
-}
+
 #email {
   color: blue
 }
