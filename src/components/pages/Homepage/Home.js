@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import { Link, Route } from "react-router-dom";
+
 
 function Home() {
 
@@ -55,8 +57,15 @@ function Home() {
   <p class="floatedtext"> Hi! My name is Conner Saxton and this is my Homepage! I am currently a student of
     Chemistry at Georgia State University and enrolled in the Full Stack Development course with the Georgia
     Institute of Technology. This portfolio was created as a part of a project in the Full Stack Development
-    course. <br></br>Please, click on <a class="dark underline" href="contact.html">Contact Me</a> in
-    either the navBar or in this paragraph to get into contact with me on one of my accounts.
+    course. <br></br>Please, click on 
+    {/* <a class="dark underline" href="contact.html">
+      Contact Me
+    </a>  */}
+    <Link to="/contact" role="button" className="btn btn-link">
+        Contact Me
+    </Link>
+    
+    in either the navBar or in this paragraph to get into contact with me on one of my accounts.
   </p>
 </div>
 
