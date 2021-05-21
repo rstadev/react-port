@@ -1,7 +1,9 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import aboutpic from "./File_000.jpeg"
+import aboutpic from "./File_000.jpeg";
+import backgroundimg from "./garden.jpg";
+
 
 function Home() {
 
@@ -47,8 +49,9 @@ function Home() {
 //             </div>
 //         </div>
 //     </nav>
-<section>
-<div id="homeSection">
+
+<section className="d-flex justify-content-center" style={{ background: `url(${backgroundimg})`}}>
+  <div className="homeSection">
   <div className = "text-center">
     <h1>About Me</h1>
     <hr/>
@@ -68,7 +71,7 @@ function Home() {
     
     in either the navBar or in this paragraph to get into contact with me on one of my accounts.
   </p>
-</div>
+  </div>
 </section>
 
 

@@ -1,3 +1,25 @@
+
+.homeSection {
+  background-color: rgb(194, 231, 255)
+  ;
+  float: clear;
+  width: 50%;
+  height: 50%;
+}
+
+.bio-image {
+  margin: 10px;
+  width: 30%;
+  height: 30%;
+
+  
+}
+
+.floatedtext {
+  float:left;
+  margin: 10px;
+}
+
 /* body {
   background-image: url("./misc/garden.jpg");
   background-color: #cccccc;
@@ -18,13 +40,7 @@
 #email {
   color: blue
 }
-#homeSection {
-  background-color: rgb(194, 231, 255)
-  ;
-  float: clear;
-  width: 50%;
-  height: 50%;
-}
+
 .contactDivs {
   padding: 10px 10px;
 }
@@ -69,13 +85,7 @@ hr {
       margin: 10px;
 }
   
-#bio-image {
-      margin: 10px;
-      width: 30%;
-      height: 30%;
 
-      
-}
 .shrink {
       width: 60%;
       height: 60%;
