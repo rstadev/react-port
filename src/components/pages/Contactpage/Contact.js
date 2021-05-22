@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "./resume.pdf"
 import "./style.css"
 
 function Contact(props) {
@@ -18,7 +19,7 @@ function Contact(props) {
     </div>
     <div  className = "text-center contactDivs">
       <h3 className = "underline">Looking to hire? Click below for my online resume!</h3>
-      <a className = "btn-primary removeUnderline" href="./assets/misc/Conner Saxton Resume 2_24_2021.pdf">My Resume!</a>
+      <a className = "btn-primary removeUnderline" href={Pdf}>My Resume!</a>
     </div>
     </section>
   );
