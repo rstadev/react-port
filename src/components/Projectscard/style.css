@@ -1,0 +1,107 @@
+.section {
+  display: block;
+  margin: 0;
+  background:  rgb(194, 231, 255);
+  position: relative;
+  overflow: scroll;
+}
+
+.shrink {
+  width: 60%;
+  height: 60%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* .homeSection {
+  background-color: rgb(194, 231, 255);
+  float: clear;
+  width: 50%;
+  height: 50%;
+}
+
+.bio-image {
+  margin: 10px;
+  width: 30%;
+  height: 30%;
+
+  
+}
+
+.floatedtext {
+  float:left;
+  margin: 10px;
+} */
+
+/* body {
+  background-image: url("./misc/garden.jpg");
+  background-color: #cccccc;
+  display: flex; flex-direction: column;
+  background-attachment: fixed;
+ }
+
+.container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 70%;
+      background: #eee;
+      margin: 10px auto;
+      position: relative;
+      text-align:center;
+}
+#email {
+  color: blue
+}
+
+.contactDivs {
+  padding: 10px 10px;
+}
+
+.dark {
+  color: black
+  
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.removeUnderline {
+  text-decoration: none;
+}
+
+#contactSection {
+  margin: 0;
+  background:  rgb(194, 231, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.floatedtext {
+      float:left;
+      margin: 10px;
+}
+  
+
+
+.shrink1{
+  width: 60%;
+  height: 80%;
+}
+
+  
+.btn-primary {
+      padding: 5px 10px;
+      
+}
+ */

@@ -2,7 +2,7 @@ export const projectData = [
   {
     "id": 1,
     "title": "Quisa Project",
-    "image": "assets/quisaPage.gif",
+    "image": require("./quisaPage.gif"),
     "description": "This was the first collaborative project I was tasked with during the Full Stack Development course with Georgia Tech. I was required to pair up with three different group members to build an app that relied upon a web A.P.I to function. We all contributed to aspects of this app, but I was specifically tasked with incorporating local storage to it. You can an example of this at the bottom of the app, in the Past Search box. You can find a deployed version of this project by clicking on the picture above. Find the repo itself by clickling the following link: ",
     "deployed": "https://wildnei.github.io/quisa-project/",
     "github": "https://github.com/wildnei/quisa-project"
@@ -25,35 +25,33 @@ export const projectData = [
     "deployed": "https://github.com/rstadev/9-ReadMe-Generator",
     "github": "https://github.com/rstadev/9-ReadMe-Generator"
 
-  }
-    
+  },
+  {
+    "id": 4,
+    "title": "E-Commerce BackEnd System",
+    "image": "",
+    "description": "This project was meant to be a chance for us to use some newly gained backend knowledge, including express, sequelize, and dotenv. This system was meant to be an entirely independent from a front end, which gives it versatility in developing its front end component. As of now everything assigned works, and a developer can put, post, get, or delete data using postman or insomnia.",
+    "deployed": "https://github.com/rstadev/13-ecommerce-backend",
+    "github": "https://github.com/rstadev/13-ecommerce-backend"
+
+  }, 
+  {
+    "id": 5,
+    "title": "Employee Management System",
+    "image": "",
+    "description": "This project was meant to be a management system for supervisors or managers to use. This involved utilizing node to create a system capable of adding, creating, and updating several employees, departments, and individual roles.",
+    "deployed": "https://github.com/rstadev/12-Employee-Manage/blob/main/package.json",
+    "github": "https://github.com/rstadev/12-Employee-Manage/blob/main/package.json"
+
+  }, 
+  {
+    "id": 6,
+    "title": "Homework5 Workday Scheduler",
+    "image": "",
+    "description": "The aim of this project was to create a daily schedular that would enable a user to log events happening in each hour of the workday and refer to this log as needed. These logs would be saveable to browser, so that if needed, a user can close out of this page and refer back to it when needed. It also displays the current time and date at the top of the page, and color codes each time block to easily identify what event is coming up in a day.",
+    "deployed": "https://rstadev.github.io/Homework5-WorkdaySched/",
+    "github": "https://github.com/rstadev/Homework5-WorkdaySched"
+
+  }  
 
 ]
-
-  // {
-  //   "id": 4,
-  //   "title": "",
-  //   "image": "",
-  //   "description": "",
-  //   "deployed": "",
-  //   "github": ""
-
-  // }, 
-  // {
-  //   "id": 5,
-  //   "title": "",
-  //   "image": "",
-  //   "description": "",
-  //   "deployed": "",
-  //   "github": ""
-
-  // }, 
-  // {
-  //   "id": 6,
-  //   "title": "",
-  //   "image": "",
-  //   "description": "",
-  //   "deployed": "",
-  //   "github": ""
-
-  // },

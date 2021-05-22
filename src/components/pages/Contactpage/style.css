@@ -29,6 +29,9 @@
   
 }
 
+.padding-bottom {
+  padding-bottom: 120px;
+}
 /* body {
   background-image: url("./misc/garden.jpg");
   background-color: #cccccc;
