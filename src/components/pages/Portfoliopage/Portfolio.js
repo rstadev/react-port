@@ -1,9 +1,17 @@
-import React from "react";
-import Projects from "../../Projects/Projects";
+import React, { Component } from "react";
+import Projects from "../../Projectscard/Projects";
+import { projectData } from "../../Projectscard/projectData.js"
 import "./style.css";
 
-function Portfolio() {
-  return (
+class Portfolio extends Component {
+  state = {
+    projectData
+  };
+
+
+
+  render() {
+    return (
 
     <section className = "container">
         <h1 className= "text-center">Portfolio</h1>
@@ -20,12 +28,25 @@ function Portfolio() {
                 <a className = "dark underline" href="https://github.com/wildnei/quisa-project">Github Repo</a>
             </p>
         </div>
-        <Projects
 
-        />
+        {this.state.projectData.map(project => (
+          <Projects
+            id={project.id}
+            key={project.id}
+            title={project.title}
+            image={project.image}
+            description={project.description}s
+            deployed={project.deployed}
+            github={project.github}
+          />
+        ))}
+          {/* <Projects
+
+          /> */}
     </section>
 
   )
+  }
 };
 
 export default Portfolio;
