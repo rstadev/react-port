@@ -1,4 +1,5 @@
 import React from "react";
+import Projects from "../../Projects/Projects";
 import "./style.css";
 
 function Portfolio() {
@@ -19,6 +20,9 @@ function Portfolio() {
                 <a className = "dark underline" href="https://github.com/wildnei/quisa-project">Github Repo</a>
             </p>
         </div>
+        <Projects
+
+        />
     </section>
 
   )
