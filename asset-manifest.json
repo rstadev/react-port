@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-port/static/css/main.2721fcbf.chunk.css",
+    "main.js": "/react-port/static/js/main.9ca5dfc0.chunk.js",
+    "main.js.map": "/react-port/static/js/main.9ca5dfc0.chunk.js.map",
+    "runtime-main.js": "/react-port/static/js/runtime-main.5ac50bf5.js",
+    "runtime-main.js.map": "/react-port/static/js/runtime-main.5ac50bf5.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/react-port/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.eb91dd7c.chunk.js": "/react-port/static/js/2.eb91dd7c.chunk.js",
+    "static/js/2.eb91dd7c.chunk.js.map": "/react-port/static/js/2.eb91dd7c.chunk.js.map",
+    "index.html": "/react-port/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/react-port/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.2721fcbf.chunk.css.map": "/react-port/static/css/main.2721fcbf.chunk.css.map",
+    "static/js/2.eb91dd7c.chunk.js.LICENSE.txt": "/react-port/static/js/2.eb91dd7c.chunk.js.LICENSE.txt",
+    "static/media/File_000.b8194873.jpeg": "/react-port/static/media/File_000.b8194873.jpeg",
+    "static/media/quisaPage.gif": "/react-port/static/media/quisaPage.4c87a417.gif",
+    "static/media/resume.2894d83a.pdf": "/react-port/static/media/resume.2894d83a.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ac50bf5.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.eb91dd7c.chunk.js",
+    "static/css/main.2721fcbf.chunk.css",
+    "static/js/main.9ca5dfc0.chunk.js"
+  ]
+}
